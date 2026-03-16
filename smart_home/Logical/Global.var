@@ -5,19 +5,32 @@ VAR
     door_h_bat : BOOL;
     door_h_ki : BOOL;
     hallway : hall;
-    previous_halway : hall;
     bedroom : bed;
-    previous_bedroom : bed;
     livingroom : liv;
-    previous_livingroom : liv;
     kithen : kit;
-    previous_kithem : kit;
     bathroom : bat;
-    previous_bathroom : bat;
     status : UDINT;
     changes : BOOL;
     state_activ : BOOL;
     state_un_activ : BOOL;
+    arry_hall : ARRAY [0..13] OF BOOL;
+    arry_bed : ARRAY [0..2] OF BOOL;
+    arry_liv : ARRAY [0..2] OF BOOL;
+    arry_bat : ARRAY [0..4] OF BOOL;
+    arry_kit : ARRAY [0..3] OF BOOL;
+    sum1 : INT;
+    last_sum1 : INT;
+    sum2 : INT;
+    last_sum2 : INT;
+    sum3 : INT;
+    last_sum3 : INT;
+    sum4 : INT;
+    last_sum4 : INT;
+    sum5 : INT;
+    last_sum5 : INT;
+    main_open : r_trig;
+    flo_alarm : BOOL;
+    a_una_timer : TON;
 END_VAR
 
 VAR CONSTANT

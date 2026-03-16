@@ -16,7 +16,7 @@
     Path="C:\Praktyki\Smart_home\smart_home\Logical\Global.var"
     LogicalPath="Global.var"
     Type="File"
-    LastWriteTime="134181348529996021"
+    LastWriteTime="134181436725001975"
     Private="false" />
   <Object
     Path="C:\Praktyki\Smart_home\smart_home\Logical\Libraries\Package.pkg"
@@ -216,13 +216,13 @@
     Path="C:\Praktyki\Smart_home\smart_home\Logical\Program\Cyclic.st"
     LogicalPath="Program.Cyclic.st"
     Type="File"
-    LastWriteTime="134181355237575664"
+    LastWriteTime="134181442755449527"
     Private="false" />
   <Object
     Path="C:\Praktyki\Smart_home\smart_home\Logical\Program\Init.st"
     LogicalPath="Program.Init.st"
     Type="File"
-    LastWriteTime="134181261532141675"
+    LastWriteTime="134181405323927990"
     Private="false" />
   <Object
     Path="C:\Praktyki\Smart_home\smart_home\Logical\Program\Exit.st"
@@ -240,7 +240,7 @@
     Path="C:\Praktyki\Smart_home\smart_home\Logical\Program\Variables.var"
     LogicalPath="Program.Variables.var"
     Type="File"
-    LastWriteTime="134181206764701683"
+    LastWriteTime="134181405323717952"
     Private="true" />
   <Object
     Path="C:\Praktyki\Smart_home\smart_home\Physical\Config1\Config.pkg"

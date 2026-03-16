@@ -1,12 +1,22 @@
 /* Automation Studio generated header file */
 /* Do not edit ! */
 
-#ifndef _BUR_1773661545_4_
-#define _BUR_1773661545_4_
+#ifndef _BUR_1773668172_2_
+#define _BUR_1773668172_2_
 
 #include <bur/plctypes.h>
 
 
+
+
+/* Constants */
+#ifdef _REPLACE_CONST
+#else
+#endif
+
+
+/* Variables */
+_BUR_LOCAL signed short i;
 
 
 __asm__(".section \".plc\"");
@@ -19,5 +29,5 @@ __asm__(".ascii \"iecfile \\\"Logical/Program/Variables.var\\\" scope \\\"local\
 __asm__(".previous");
 
 
-#endif /* _BUR_1773661545_4_ */
+#endif /* _BUR_1773668172_2_ */
 
