@@ -1,0 +1,4 @@
+VAR
+	i : INT;
+	siezeof : FUB_TYPE;
+END_VAR

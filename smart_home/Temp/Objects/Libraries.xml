@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version="6.5.1.7"?>
+<LibraryInfos>
+  <Library
+    Name="ArCan"
+    IsDeployed="true"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="" />
+  <Library
+    Name="AsBrStr"
+    IsDeployed="true"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="" />
+  <Library
+    Name="AsBrWStr"
+    IsDeployed="true"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="" />
+  <Library
+    Name="AsIecCon"
+    IsDeployed="false"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="" />
+  <Library
+    Name="brsystem"
+    IsDeployed="true"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="" />
+  <Library
+    Name="operator"
+    IsDeployed="false"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="" />
+  <Library
+    Name="runtime"
+    IsDeployed="true"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="" />
+  <Library
+    Name="standard"
+    IsDeployed="true"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="" />
+</LibraryInfos>

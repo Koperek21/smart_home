@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version="6.5.1.7"?>
+<ProjectOptions
+  IecNamingConventions="true"
+  IecKeywordsAsStructureMembers="false"
+  IecExtendedConstants="true"
+  LogicalDirectory="C:\Praktyki\Smart_home\smart_home\Logical\"
+  TempDirectory="C:\Praktyki\Smart_home\smart_home\Temp\"
+  AutomationStudioVersion="6.5.1.7"
+  AutomationStudioEdition="Standard"
+  BuildCrossReference="false"
+  ActiveConfiguration="Config1"
+  CreateAnsiCDeclarations="false" />

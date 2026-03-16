@@ -1,6 +1,23 @@
 
 VAR
-
+	door_h_be : BOOL;
+    door_h_liv : BOOL;
+    door_h_bat : BOOL;
+    door_h_ki : BOOL;
+    hallway : hall;
+    previous_halway : hall;
+    bedroom : bed;
+    previous_bedroom : bed;
+    livingroom : liv;
+    previous_livingroom : liv;
+    kithen : kit;
+    previous_kithem : kit;
+    bathroom : bat;
+    previous_bathroom : bat;
+    status : UDINT;
+    changes : BOOL;
+    state_activ : BOOL;
+    state_un_activ : BOOL;
 END_VAR
 
 VAR CONSTANT
