@@ -1,7 +1,7 @@
 SHELL := cmd.exe
 CYGWIN=nontsec
 export PATH := C:\Program Files\Common Files\Siemens\Automation\Simatic OAM\bin;C:\Program Files (x86)\Beckhoff\TwinCAT\Common64\;C:\Program Files (x86)\Beckhoff\TwinCAT\Common32\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\dotnet\;C:\ProgramData\Beckhoff\TcPkg\;C:\Users\kacper.kapusniak\AppData\Local\Microsoft\WindowsApps;C:\Users\kacper.kapusniak\AppData\Local\Programs\Git\cmd;C:\Users\kacper.kapusniak\AppData\Local\Microsoft\WindowsApps;C:\Users\kacper.kapusniak\AppData\Local\Programs\Git\cmd;C:\Program Files (x86)\BRAutomation\AS6\bin-en
-export AS_BUILD_MODE := Build
+export AS_BUILD_MODE := BuildAndTransfer
 export AS_VERSION := 6.5.1.7
 export AS_WORKINGVERSION := 6.5
 export AS_COMPANY_NAME :=  
@@ -35,5 +35,5 @@ export WIN32_AS_INSTALL_PATH := "C:\Program Files (x86)\BRAutomation\AS6"
 
 ProjectMakeFile:
 
-	@'$(AS_BIN_PATH)/BR.AS.AnalyseProject.exe' '$(AS_PROJECT_PATH)/smart_home.apj' -t '$(AS_TEMP_PATH)' -c '$(AS_CONFIGURATION)' -o '$(AS_BINARIES_PATH)'   -sfas -buildMode 'Build'   
+	@'$(AS_BIN_PATH)/BR.AS.AnalyseProject.exe' '$(AS_PROJECT_PATH)/smart_home.apj' -t '$(AS_TEMP_PATH)' -c '$(AS_CONFIGURATION)' -o '$(AS_BINARIES_PATH)'   -sfas -buildMode 'BuildAndTransfer'   
 

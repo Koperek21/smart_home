@@ -1,6 +1,6 @@
 SHELL := cmd.exe
 
-export AS_BUILD_MODE := Build
+export AS_BUILD_MODE := BuildAndTransfer
 export AS_SYSTEM_PATH := C:/Program\ Files\ (x86)/BRAutomation/AS6/AS/System
 export AS_BIN_PATH := C:/Program Files (x86)/BRAutomation/AS6/bin-en
 export AS_INSTALL_PATH := C:/Program\ Files\ (x86)/BRAutomation/AS6

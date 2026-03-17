@@ -1,3 +1,10 @@
 VAR
 	i : INT;
+	last_sum : INT;
+	sum : INT;
+	j : INT;
+	k : INT;
+	l : INT;
+	m : INT;
+	n : INT;
 END_VAR

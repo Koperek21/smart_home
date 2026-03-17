@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Toc Version="2" MINORVERSION="0">
+	<Application>
+		<Class Name="Os">
+			<Folder Name="BRM" ProjectDependent="1">
+				<File Name="@cfAR000.br" Size="4072" HashValue="65B7A2836DE764F474B9FB1BB1FA08DF" ProjectDependent="1"/>
+				<File Name="@sbAR000.br" Size="1624" HashValue="4D45080EB8BB53F3414E64F43D80E64C" ProjectDependent="1"/>
+			</Folder>
+			<Folder Name="SYSTEM" ProjectDependent="1">
+				<Folder Name="BASE" ProjectDependent="1">
+					<Folder Name="COMPONENTS" ProjectDependent="1">
+						<File Name="ArLcTextP.br" Size="316012" HashValue="C1C5B62D0CB59C3C6070A948C4C9E8EB" ProjectDependent="1"/>
+						<File Name="ArUnitSys.br" Size="282052" HashValue="CE2E94DB8C2145F19CDFE8A4FC5D2074" ProjectDependent="1"/>
+						<File Name="UaCore.br" Size="2121672" HashValue="39B1F4C65D08FF6FEA2D826E11AFE4E4" ProjectDependent="1"/>
+					</Folder>
+					<Folder Name="HWD" ProjectDependent="1">
+						<File Name="AsHwdhw_upl.xml.gz" Size="11758" HashValue="29CA3A575FE82F4E8C434427A0791BBF" ProjectDependent="1"/>
+						<File Name="AsHwdSimulation.xml.gz" Size="12568" HashValue="14F041AE413AE4FEADBD8A7BB5FF186D" ProjectDependent="1"/>
+					</Folder>
+				</Folder>
+				<Folder Name="SDM" ProjectDependent="1">
+					<File Name="arsdm.tar.gz" Size="540972" HashValue="1DACBDFACF921B479D810F9953B81C3D" ProjectDependent="1"/>
+				</Folder>
+				<Folder Name="TOC" ProjectDependent="1">
+					<File Name="ftoc.xml" Size="520" HashValue="6666A1BC1FDC9BBCF7B22FC833143FB5" ProjectDependent="1"/>
+				</Folder>
+				<Folder Name="WEBSERV" ProjectDependent="1">
+					<File Name="ArWebServ.br" Size="79708" HashValue="55C3BE91CA275EB4B40E38D1104F74F6" ProjectDependent="1"/>
+				</Folder>
+			</Folder>
+		</Class>
+	</Application>
+</Toc>

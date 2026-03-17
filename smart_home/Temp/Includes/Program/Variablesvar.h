@@ -1,8 +1,8 @@
 /* Automation Studio generated header file */
 /* Do not edit ! */
 
-#ifndef _BUR_1773668172_2_
-#define _BUR_1773668172_2_
+#ifndef _BUR_1773736632_1_
+#define _BUR_1773736632_1_
 
 #include <bur/plctypes.h>
 
@@ -16,6 +16,13 @@
 
 
 /* Variables */
+_BUR_LOCAL signed short n;
+_BUR_LOCAL signed short m;
+_BUR_LOCAL signed short l;
+_BUR_LOCAL signed short k;
+_BUR_LOCAL signed short j;
+_BUR_LOCAL signed short sum;
+_BUR_LOCAL signed short last_sum;
 _BUR_LOCAL signed short i;
 
 
@@ -29,5 +36,5 @@ __asm__(".ascii \"iecfile \\\"Logical/Program/Variables.var\\\" scope \\\"local\
 __asm__(".previous");
 
 
-#endif /* _BUR_1773668172_2_ */
+#endif /* _BUR_1773736632_1_ */
 

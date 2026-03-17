@@ -6,16 +6,9 @@
 #line 1 "C:/Praktyki/Smart_home/smart_home/Logical/Program/Init.nodebug"
 #line 3 "C:/Praktyki/Smart_home/smart_home/Logical/Program/Init.st"
 void __BUR__ENTRY_INIT_FUNCT__(void){{
-((*(unsigned long*)&(hallway.door_H_be))=((unsigned long)(&door_h_be)));
-((*(unsigned long*)&(bedroom.door_h_Be))=((unsigned long)(&door_h_be)));
-((*(unsigned long*)&(hallway.door_H_liv))=((unsigned long)(&door_h_liv)));
-((*(unsigned long*)&(livingroom.door_h_Liv))=((unsigned long)(&door_h_liv)));
-((*(unsigned long*)&(hallway.door_H_ki))=((unsigned long)(&door_h_ki)));
-((*(unsigned long*)&(kithen.door_h_Ki))=((unsigned long)(&door_h_ki)));
-((*(unsigned long*)&(hallway.door_H_bat))=((unsigned long)(&door_h_bat)));
-((*(unsigned long*)&(bathroom.door_h_Bat))=((unsigned long)(&door_h_bat)));
+(state_un_activ=1);
 }}
-#line 12 "C:/Praktyki/Smart_home/smart_home/Logical/Program/Init.nodebug"
+#line 5 "C:/Praktyki/Smart_home/smart_home/Logical/Program/Init.nodebug"
 
 void __AS__ImplInitInit_st(void){__BUR__ENTRY_INIT_FUNCT__();}
 

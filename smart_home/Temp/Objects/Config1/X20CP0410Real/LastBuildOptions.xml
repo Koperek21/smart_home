@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9" WorkingVersion="6.5"?>
+<RuleSetOptions UsesUTCTime="True">
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0410\ashwac.br">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\hardware.hw" LastWriteTime="2026-03-12 14:03:24" />
+    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Physical\Config1\Hardware.hw&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP0410\ashwac.br&quot; -L &quot;ArCan: V*, AsBrStr: V*, AsBrWStr: V*, AsIecCon: V*, brsystem: V*, operator: V*, runtime: V*, standard: V*&quot; -c &quot;Config1&quot; -B 6.5.1 -P &quot;$(AS_PROJECT_PATH)&quot; -v 1.0.0 " />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0410\sysconf.br">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\hardware.hw" LastWriteTime="2026-03-12 14:03:24" />
+    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Physical\Config1\Hardware.hw&quot;  -v 1.0.0 -c &quot;Config1&quot; -sysconf -Z &quot;OpcUaCs: 6.0.0, UnitSystem: n.d, TextSystem: n.d, RemanentData: n.d, IEC: n.d, FMUExport: n.d, AAS: n.d&quot; -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP0410\sysconf.br&quot; -P &quot;$(AS_PROJECT_PATH)&quot; -s &quot;Config1&quot; -B 6.5.1 " />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0410\asfw.br">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\hardware.hw" LastWriteTime="2026-03-12 14:03:24" />
+    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Physical\Config1\Hardware.hw&quot;  -v 1.0.0 -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP0410\asfw.br&quot; -P &quot;$(AS_PROJECT_PATH)&quot; -c &quot;Config1&quot; -zip -s &quot;Config1&quot; -firmware -Z &quot;OpcUaCs: 6.0.0, UnitSystem: n.d, TextSystem: n.d, RemanentData: n.d, IEC: n.d, FMUExport: n.d, AAS: n.d&quot; -B 6.5.1 " />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0410\ashwd.br">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\hardware.hw" LastWriteTime="2026-03-12 14:03:24" />
+    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Physical\Config1\Hardware.hw&quot;  -v 1.0.0 -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP0410\ashwd.br&quot; -P &quot;$(AS_PROJECT_PATH)&quot; -c &quot;Config1&quot; -zip -s &quot;Config1&quot; -hwd -Z &quot;OpcUaCs: 6.0.0, UnitSystem: n.d, TextSystem: n.d, RemanentData: n.d, IEC: n.d, FMUExport: n.d, AAS: n.d&quot; -B 6.5.1 " />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0410\arconfig.br">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\hardware.hw" LastWriteTime="2026-03-12 14:03:24" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\x20cp0410\iomap.iom" LastWriteTime="2026-02-04 14:35:10" />
+    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Physical\Config1\Hardware.hw&quot; &quot;$(AS_PROJECT_PATH)\Physical\Config1\X20CP0410\IoMap.iom&quot;  -arconfig -C &quot;/COMT=2500 /AM=* /SDT=5 /IP=192.168.0.1 /PT=11169&quot; -D &quot;/IF=tcpip&quot; -c &quot;Config1&quot; -v 1.0.0 -Z &quot;OpcUaCs: 6.0.0, UnitSystem: n.d, TextSystem: n.d, RemanentData: n.d, IEC: n.d, FMUExport: n.d, AAS: n.d&quot; -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP0410\arconfig.br&quot; &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP0410\ChannelConfiguration.xml&quot; &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP0410\ReActionTechnologyConfiguration.xml&quot; -P &quot;$(AS_PROJECT_PATH)&quot; -s &quot;Config1&quot; -B 6.5.1 " />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0410\udbdef.br">
+    <Prerequisite ID="$(AS_PATH)\as\technologypackages\unitsystem\n.d\transfer\modules\sg4\udbdef.br" LastWriteTime="2026-02-04 14:36:04" />
+    <CommandLine Parameter="$(AS_PATH)\AS\TechnologyPackages\UnitSystem\n.d\Transfer\Modules\SG4\udbdef.br, $(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP0410\udbdef.br" />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0410\iomap.br">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\x20cp0410\iomap.iom" LastWriteTime="2026-02-04 14:35:10" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\x20cp0410\pvmap.vvm" LastWriteTime="2026-02-04 14:35:10" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\hardware.hw" LastWriteTime="2026-03-12 14:03:24" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\x20cp0410\cpu.sw" LastWriteTime="2026-03-16 11:45:26" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0410\channelconfiguration.xml" LastWriteTime="2026-03-16 11:45:54" />
+    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Physical\Config1\X20CP0410\IoMap.iom&quot; &quot;$(AS_PROJECT_PATH)\Physical\Config1\X20CP0410\PvMap.vvm&quot;  -m &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP0410\ConfigInfo.cfi&quot; -g &quot;$(AS_PROJECT_PATH)\Temp\Objects\Declarations.lst&quot; -x &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP0410\ChannelConfiguration.xml&quot; -v 1.0.0 -f &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP0410&quot; -iomap -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP0410\iomap.br&quot; -B 6.5.1 -P &quot;$(AS_PROJECT_PATH)&quot; -s &quot;Config1.X20CP0410&quot;" />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0410\tcdata\tcdata.imx">
+    <Prerequisite ID="$(AS_PATH)\as\technologypackages\textsystem\n.d\objectcatalog\elements\textconfig\template\tc.textconfig" LastWriteTime="2026-02-04 14:35:10" />
+    <CommandLine Parameter=" -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP0410\TCData\TCData.imx&quot; -c &quot;$(AS_PATH)\AS\TechnologyPackages\TextSystem\n.d\ObjectCatalog\Elements\TextConfig\Template\TC.textconfig&quot; -I &quot;$(AS_PATH)\AS\System\6.5.1&quot; &quot;$(AS_PATH)\AS\TechnologyPackages\UnitSystem\n.d&quot; -P &quot;$(AS_PROJECT_PATH)&quot;" />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0410\tcdata\tcdata.s18d">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0410\tcdata\tcdata.imx" LastWriteTime="2026-03-16 11:45:50" />
+    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP0410\TCData\TCData.imx&quot; -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP0410\TCData\TCData.s18d&quot;" />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0410\tcdata.br">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0410\tcdata\tcdata.s18d" LastWriteTime="2026-03-16 11:45:52" />
+    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP0410\TCData\TCData.s18d&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP0410\TCData.br&quot; -t TextModule -v 1.0.0" />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0410\uacsconfig.br">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\x20cp0410\connectivity\opcuacs\uacsconfig.uacfg" LastWriteTime="2026-03-12 14:03:24" />
+    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Physical\Config1\X20CP0410\Connectivity\OpcUaCs\UaCsConfig.uacfg&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP0410\UaCsConfig.br&quot; -zip -warmRestart -B 6.5.1 -z 6.0.0 -P &quot;$(AS_PROJECT_PATH)&quot; -c &quot;Config1&quot; -H &quot;$(AS_PROJECT_PATH)\Physical\Config1\Hardware.hw&quot;  -v 1.0.0" />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0410\brrole.br">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\x20cp0410\accessandsecurity\userrolesystem\brrole.brrole" LastWriteTime="2026-03-12 14:03:24" />
+    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Physical\Config1\X20CP0410\AccessAndSecurity\UserRoleSystem\BRRole.brrole&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP0410\BRRole.br&quot; -zip -B 6.5.1 -z n.d -P &quot;$(AS_PROJECT_PATH)&quot; -c &quot;Config1&quot; -H &quot;$(AS_PROJECT_PATH)\Physical\Config1\Hardware.hw&quot;  -v 1.0.0" />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0410\fwrules.br">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\x20cp0410\accessandsecurity\firewall\rules.firewallrules" LastWriteTime="2026-03-12 14:03:24" />
+    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Physical\Config1\X20CP0410\AccessAndSecurity\Firewall\Rules.firewallRules&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP0410\FWRules.br&quot; -zip -B 6.5.1 -z n.d -P &quot;$(AS_PROJECT_PATH)&quot; -c &quot;Config1&quot; -H &quot;$(AS_PROJECT_PATH)\Physical\Config1\Hardware.hw&quot;  -v 1.0.0" />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0410\program.br">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0410\program\program.ox" LastWriteTime="2026-03-17 07:12:54" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\x20cp0410\cpu.per" LastWriteTime="2026-02-04 14:35:10" />
+    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP0410\Program\Program.ox&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP0410\Program.br&quot; -v 1.0.0 -f &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP0410\NT.ofs&quot; -offsetLT &quot;$(AS_PROJECT_PATH)\Binaries\Config1\X20CP0410\LT.ofs&quot; -M ARM -B 6.5.1 -G V11.3.0  -extConstants -d &quot;runtime: V* - V*,AsIecCon: V* - V*&quot; -r Cyclic4 -p 2 -s &quot;Program&quot; -L &quot;ArCan: V*, AsBrStr: V*, AsBrWStr: V*, AsIecCon: V*, brsystem: V*, operator: V*, runtime: V*, standard: V*&quot; -P &quot;$(AS_PROJECT_PATH)&quot; " />
+    <AdditionalBuildTrigger Key="VolatileMemory" Value="65535" />
+    <AdditionalBuildTrigger Key="PermanentAnalogMemory" Value="0" />
+    <AdditionalBuildTrigger Key="PermanentDigitalMemory" Value="0" />
+    <AdditionalBuildTrigger Key="RemanentMemory" Value="0" />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0410\program\program.ox">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0410\program\cyclic.st.o" LastWriteTime="2026-03-17 07:12:54" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0410\program\init.st.o" LastWriteTime="2026-03-16 13:36:12" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0410\program\exit.st.o" LastWriteTime="2026-03-16 11:45:46" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0410\program\_bur_pvdef.st.o" LastWriteTime="2026-03-17 07:12:54" />
+    <CommandLine Parameter=" -link &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP0410\Program\Cyclic.st.o&quot; &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP0410\Program\Init.st.o&quot; &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP0410\Program\Exit.st.o&quot; &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP0410\Program\_bur_pvdef.st.o&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP0410\Program\Program.ox&quot; -G V11.3.0  -M ARM &quot;-Wl,$(AS_PATH)\AS\System\6.5.1\SG4\Arm\libbrsystem.a&quot; &quot;-Wl,$(AS_PATH)\AS\System\6.5.1\SG4\Arm\libArCan.a&quot; &quot;-Wl,$(AS_PATH)\AS\System\6.5.1\SG4\Arm\libAsIecCon.a&quot; &quot;-Wl,$(AS_PATH)\AS\System\6.5.1\SG4\Arm\libAsBrWStr.a&quot; &quot;-Wl,$(AS_PATH)\AS\System\6.5.1\SG4\Arm\libAsBrStr.a&quot; &quot;-Wl,$(AS_PATH)\AS\System\6.5.1\SG4\Arm\libstandard.a&quot; &quot;-Wl,$(AS_PATH)\AS\System\6.5.1\SG4\Arm\libruntime.a&quot; &quot;-Wl,$(AS_PATH)\AS\System\6.5.1\SG4\Arm\liboperator.a&quot; -specs &quot;$(AS_PATH)\AS\gnuinst\V11.3.0\6.3\lib\gcc\arm-eabi\11.3.0\brelf.specs&quot; -nostdlib &quot;$(AS_PATH)\AS\gnuinst\V11.3.0\6.3\arm-eabi\lib\libm.a&quot; -t &quot;$(AS_PROJECT_PATH)\Temp&quot;" />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0410\program\cyclic.st.c">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\program\cyclic.st" LastWriteTime="2026-03-17 07:12:46" />
+    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Logical\Program\Cyclic.st&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP0410\Program\Cyclic.st.c&quot; -T SG4 -M ARM -B 6.5.1 -G V11.3.0  -s &quot;Program&quot; -t &quot;$(AS_PROJECT_PATH)\Temp&quot; -pointers -extComments -extBitAccess -extConstants -D _SG4 -l &quot;$(AS_PROJECT_PATH)\Logical\Program\Types.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Program\Variables.var&quot; -g &quot;$(AS_PROJECT_PATH)\Logical\Global.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\ArCan\ArCan.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\brsystem\brsystem.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\standard\standard.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsBrStr\AsBrStr.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsBrWStr\AsBrWStr.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\ArCan\ArCan.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\brsystem\brsystem.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\standard\standard.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsBrStr\AsBrStr.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsBrWStr\AsBrWStr.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Global.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\ArCan\ArCan.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\brsystem\brsystem.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\standard\standard.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsBrStr\AsBrStr.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsBrWStr\AsBrWStr.var&quot; -P &quot;$(AS_PROJECT_PATH)&quot; " />
+    <AdditionalBuildTrigger Key="IecDeclarationsInAnsiC" Value="False" />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0410\program\cyclic.st.o">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0410\program\cyclic.st.c" LastWriteTime="2026-03-17 07:12:54" />
+    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP0410\Program\Cyclic.st.c&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP0410\Program\Cyclic.st.o&quot; -M ARM -B 6.5.1 -G V11.3.0  -s &quot;Program&quot; -specs &quot;$(AS_PATH)\AS\gnuinst\V11.3.0\6.3\lib\gcc\arm-eabi\11.3.0\brelf.specs&quot; -I &quot;$(AS_PROJECT_PATH)\Logical\Program&quot; &quot;$(AS_PROJECT_PATH)\Temp\Includes\Program&quot; &quot;$(AS_PROJECT_PATH)\Temp\Includes&quot; -ansi -D _DEFAULT_INCLUDES -D _SG4 -fPIC -O0 -ggdb -Wall -w -include &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP0410\Libraries.h&quot; -x c -P &quot;$(AS_PROJECT_PATH)&quot;" />
+    <AdditionalBuildTrigger Key="IecDeclarationsInAnsiC" Value="False" />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0410\program\init.st.c">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\program\init.st" LastWriteTime="2026-03-16 13:15:32" />
+    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Logical\Program\Init.st&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP0410\Program\Init.st.c&quot; -T SG4 -M ARM -B 6.5.1 -G V11.3.0  -s &quot;Program&quot; -t &quot;$(AS_PROJECT_PATH)\Temp&quot; -pointers -extComments -extBitAccess -extConstants -D _SG4 -l &quot;$(AS_PROJECT_PATH)\Logical\Program\Types.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Program\Variables.var&quot; -g &quot;$(AS_PROJECT_PATH)\Logical\Global.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\ArCan\ArCan.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\brsystem\brsystem.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\standard\standard.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsBrStr\AsBrStr.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsBrWStr\AsBrWStr.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\ArCan\ArCan.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\brsystem\brsystem.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\standard\standard.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsBrStr\AsBrStr.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsBrWStr\AsBrWStr.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Global.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\ArCan\ArCan.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\brsystem\brsystem.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\standard\standard.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsBrStr\AsBrStr.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsBrWStr\AsBrWStr.var&quot; -P &quot;$(AS_PROJECT_PATH)&quot; " />
+    <AdditionalBuildTrigger Key="IecDeclarationsInAnsiC" Value="False" />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0410\program\init.st.o">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0410\program\init.st.c" LastWriteTime="2026-03-16 13:36:12" />
+    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP0410\Program\Init.st.c&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP0410\Program\Init.st.o&quot; -M ARM -B 6.5.1 -G V11.3.0  -s &quot;Program&quot; -specs &quot;$(AS_PATH)\AS\gnuinst\V11.3.0\6.3\lib\gcc\arm-eabi\11.3.0\brelf.specs&quot; -I &quot;$(AS_PROJECT_PATH)\Logical\Program&quot; &quot;$(AS_PROJECT_PATH)\Temp\Includes\Program&quot; &quot;$(AS_PROJECT_PATH)\Temp\Includes&quot; -ansi -D _DEFAULT_INCLUDES -D _SG4 -fPIC -O0 -ggdb -Wall -w -include &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP0410\Libraries.h&quot; -x c -P &quot;$(AS_PROJECT_PATH)&quot;" />
+    <AdditionalBuildTrigger Key="IecDeclarationsInAnsiC" Value="False" />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0410\program\exit.st.c">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\program\exit.st" LastWriteTime="2026-03-16 07:44:36" />
+    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Logical\Program\Exit.st&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP0410\Program\Exit.st.c&quot; -T SG4 -M ARM -B 6.5.1 -G V11.3.0  -s &quot;Program&quot; -t &quot;$(AS_PROJECT_PATH)\Temp&quot; -pointers -extComments -extBitAccess -extConstants -D _SG4 -l &quot;$(AS_PROJECT_PATH)\Logical\Program\Types.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Program\Variables.var&quot; -g &quot;$(AS_PROJECT_PATH)\Logical\Global.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\ArCan\ArCan.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\brsystem\brsystem.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\standard\standard.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsBrStr\AsBrStr.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsBrWStr\AsBrWStr.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\ArCan\ArCan.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\brsystem\brsystem.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\standard\standard.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsBrStr\AsBrStr.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsBrWStr\AsBrWStr.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Global.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\ArCan\ArCan.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\brsystem\brsystem.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\standard\standard.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsBrStr\AsBrStr.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsBrWStr\AsBrWStr.var&quot; -P &quot;$(AS_PROJECT_PATH)&quot; " />
+    <AdditionalBuildTrigger Key="IecDeclarationsInAnsiC" Value="False" />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0410\program\exit.st.o">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0410\program\exit.st.c" LastWriteTime="2026-03-16 11:45:46" />
+    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP0410\Program\Exit.st.c&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP0410\Program\Exit.st.o&quot; -M ARM -B 6.5.1 -G V11.3.0  -s &quot;Program&quot; -specs &quot;$(AS_PATH)\AS\gnuinst\V11.3.0\6.3\lib\gcc\arm-eabi\11.3.0\brelf.specs&quot; -I &quot;$(AS_PROJECT_PATH)\Logical\Program&quot; &quot;$(AS_PROJECT_PATH)\Temp\Includes\Program&quot; &quot;$(AS_PROJECT_PATH)\Temp\Includes&quot; -ansi -D _DEFAULT_INCLUDES -D _SG4 -fPIC -O0 -ggdb -Wall -w -include &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP0410\Libraries.h&quot; -x c -P &quot;$(AS_PROJECT_PATH)&quot;" />
+    <AdditionalBuildTrigger Key="IecDeclarationsInAnsiC" Value="False" />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0410\program\_bur_pvdef.st.c">
+    <Prerequisite ID="$(AS_PATH)\as\gnuinst\v11.3.0\6.3\arm-eabi\include\bur\_bur_pvdef.st" LastWriteTime="2026-02-04 15:24:16" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0410\program\cyclic.st.o" LastWriteTime="2026-03-17 07:12:54" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0410\program\init.st.o" LastWriteTime="2026-03-16 13:36:12" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0410\program\exit.st.o" LastWriteTime="2026-03-16 11:45:46" />
+    <CommandLine Parameter="&quot;$(AS_PATH)\AS\gnuinst\V11.3.0\6.3\arm-eabi\include\bur\_bur_pvdef.st&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP0410\Program\_bur_pvdef.st.c&quot; -S &quot;Cyclic.st&quot; &quot;Init.st&quot; &quot;Exit.st&quot;  -T SG4 -M ARM -B 6.5.1 -G V11.3.0  -s &quot;Program&quot; -t &quot;$(AS_PROJECT_PATH)\Temp&quot; -pointers -extComments -extBitAccess -extConstants -D _SG4 -l &quot;$(AS_PROJECT_PATH)\Logical\Program\Types.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Program\Variables.var&quot; -g &quot;$(AS_PROJECT_PATH)\Logical\Global.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\ArCan\ArCan.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\brsystem\brsystem.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\standard\standard.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsBrStr\AsBrStr.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsBrWStr\AsBrWStr.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\ArCan\ArCan.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\brsystem\brsystem.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\standard\standard.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsBrStr\AsBrStr.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsBrWStr\AsBrWStr.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Global.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\ArCan\ArCan.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\brsystem\brsystem.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\standard\standard.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsBrStr\AsBrStr.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsBrWStr\AsBrWStr.var&quot; -P &quot;$(AS_PROJECT_PATH)&quot; " />
+    <AdditionalBuildTrigger Key="IecDeclarationsInAnsiC" Value="False" />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0410\program\_bur_pvdef.st.o">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0410\program\_bur_pvdef.st.c" LastWriteTime="2026-03-17 07:12:54" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0410\program\cyclic.st.o" LastWriteTime="2026-03-17 07:12:54" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0410\program\init.st.o" LastWriteTime="2026-03-16 13:36:12" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0410\program\exit.st.o" LastWriteTime="2026-03-16 11:45:46" />
+    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP0410\Program\_bur_pvdef.st.c&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP0410\Program\_bur_pvdef.st.o&quot; -M ARM -B 6.5.1 -G V11.3.0  -s &quot;Program&quot; -t &quot;$(AS_PROJECT_PATH)\Temp&quot; -specs &quot;$(AS_PATH)\AS\gnuinst\V11.3.0\6.3\lib\gcc\arm-eabi\11.3.0\brelf.specs&quot; -I &quot;$(AS_PROJECT_PATH)\Logical\Program&quot; &quot;$(AS_PROJECT_PATH)\Temp\Includes\Program&quot; &quot;$(AS_PROJECT_PATH)\Temp\Includes&quot; -trigraphs -fno-asm -D _DEFAULT_INCLUDES -D _SG4 -fPIC -O0 -ggdb -Wall -include &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP0410\Libraries.h&quot; -P &quot;$(AS_PROJECT_PATH)&quot;" />
+    <AdditionalBuildTrigger Key="IecDeclarationsInAnsiC" Value="False" />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0410\arcan.br">
+    <Prerequisite ID="$(AS_PATH)\as\system\6.5.1\sg4\arm\arcan.br" LastWriteTime="2025-12-04 08:42:30" />
+    <CommandLine Parameter="$(AS_PATH)\AS\System\6.5.1\SG4\Arm\ArCan.br, $(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP0410\ArCan.br" />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0410\runtime.br">
+    <Prerequisite ID="$(AS_PATH)\as\system\6.5.1\sg4\arm\runtime.br" LastWriteTime="2025-12-04 08:42:32" />
+    <CommandLine Parameter="$(AS_PATH)\AS\System\6.5.1\SG4\Arm\runtime.br, $(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP0410\runtime.br" />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0410\brsystem.br">
+    <Prerequisite ID="$(AS_PATH)\as\system\6.5.1\sg4\arm\brsystem.br" LastWriteTime="2025-12-04 08:42:32" />
+    <CommandLine Parameter="$(AS_PATH)\AS\System\6.5.1\SG4\Arm\brsystem.br, $(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP0410\brsystem.br" />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0410\standard.br">
+    <Prerequisite ID="$(AS_PATH)\as\system\6.5.1\sg4\arm\standard.br" LastWriteTime="2025-12-04 08:42:32" />
+    <CommandLine Parameter="$(AS_PATH)\AS\System\6.5.1\SG4\Arm\standard.br, $(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP0410\standard.br" />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0410\asbrstr.br">
+    <Prerequisite ID="$(AS_PATH)\as\system\6.5.1\sg4\arm\asbrstr.br" LastWriteTime="2025-12-04 08:42:30" />
+    <CommandLine Parameter="$(AS_PATH)\AS\System\6.5.1\SG4\Arm\AsBrStr.br, $(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP0410\AsBrStr.br" />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0410\asbrwstr.br">
+    <Prerequisite ID="$(AS_PATH)\as\system\6.5.1\sg4\arm\asbrwstr.br" LastWriteTime="2025-12-04 08:42:30" />
+    <CommandLine Parameter="$(AS_PATH)\AS\System\6.5.1\SG4\Arm\AsBrWStr.br, $(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP0410\AsBrWStr.br" />
+  </Rule>
+  <Rule ID="#cpu_tp.mak">
+    <CommandLine Parameter=" -r -f &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP0410\#cpu_tp.mak&quot; -k" />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\binaries\config1\x20cp0410\transfer.lst">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0410\ashwac.br" LastWriteTime="2026-03-16 11:45:54" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0410\sysconf.br" LastWriteTime="2026-03-16 11:45:54" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0410\asfw.br" LastWriteTime="2026-03-16 11:45:54" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0410\ashwd.br" LastWriteTime="2026-03-16 11:45:54" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0410\arconfig.br" LastWriteTime="2026-03-16 11:45:54" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0410\udbdef.br" LastWriteTime="2026-02-04 14:36:04" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0410\iomap.br" LastWriteTime="2026-03-16 11:45:54" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0410\tcdata.br" LastWriteTime="2026-03-16 11:45:52" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0410\uacsconfig.br" LastWriteTime="2026-03-16 11:45:54" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0410\brrole.br" LastWriteTime="2026-03-16 11:45:54" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0410\fwrules.br" LastWriteTime="2026-03-16 11:45:54" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0410\program.br" LastWriteTime="2026-03-17 07:12:54" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0410\arcan.br" LastWriteTime="2025-12-04 08:42:30" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0410\runtime.br" LastWriteTime="2025-12-04 08:42:32" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0410\brsystem.br" LastWriteTime="2025-12-04 08:42:32" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0410\standard.br" LastWriteTime="2025-12-04 08:42:32" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0410\asbrstr.br" LastWriteTime="2025-12-04 08:42:30" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0410\asbrwstr.br" LastWriteTime="2025-12-04 08:42:30" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\x20cp0410\cpu.sw" LastWriteTime="2026-03-16 11:45:26" />
+    <CommandLine Parameter=" &quot;$(AS_PROJECT_PATH)\smart_home.apj&quot; -t &quot;$(AS_PROJECT_PATH)\Temp&quot; -o &quot;$(AS_PROJECT_PATH)\Binaries&quot; -c &quot;Config1&quot; -i &quot;$(AS_PATH)&quot; -S &quot;X20CP0410&quot; -A &quot;X20CP04xx&quot; -swFiles &quot;$(AS_PROJECT_PATH)\Physical\Config1\X20CP0410\Cpu.sw&quot; -Z &quot;OpcUaCs: 6.0.0, UnitSystem: n.d, TextSystem: n.d, RemanentData: n.d, IEC: n.d, FMUExport: n.d, AAS: n.d&quot; -C &quot;/COMT=2500 /AM=* /SDT=5 /IP=192.168.0.1 /PT=11169&quot; -D &quot;/IF=tcpip&quot; -M ARM -T SG4" />
+  </Rule>
+</RuleSetOptions>

@@ -5,7 +5,7 @@
   Target="SG4"
   GccVersion="11.3.0"
   SaveSourceOnTarget="false"
-  ARMSimulation="False"
+  ARMSimulation="True"
   ArVersion="6.5.1">
   <ModuleMemoryData>
     <Module

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BuildReasons>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0410\program\cyclic.st.c">
+    <BuildReason>Target "cyclic.st.c" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0410\program\cyclic.st.o">
+    <BuildReason>Target "cyclic.st.o" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0410\program\_bur_pvdef.st.c">
+    <BuildReason>Target "_bur_pvdef.st.c" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0410\program\_bur_pvdef.st.o">
+    <BuildReason>Target "_bur_pvdef.st.o" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0410\program\program.ox">
+    <BuildReason>Target "program.ox" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0410\program.br">
+    <BuildReason>Target "program.br" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0410\iomap.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\physical\config1\x20cp0410\cpu.sw" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="#cpu_tp.mak">
+    <BuildReason>Rule is forced.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\binaries\config1\x20cp0410\transfer.lst">
+    <BuildReason>Target "transfer.lst" does not exist</BuildReason>
+  </Rule>
+</BuildReasons>

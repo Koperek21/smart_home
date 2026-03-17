@@ -1,0 +1,8 @@
+17-03-2026 13:16:24 - COPYRIGHT (C) B&R Industrial Automation GmbH
+17-03-2026 13:16:24 - No ARsim registration found!
+17-03-2026 13:16:24 - InstanceName: 00000412fba0973d
+17-03-2026 13:16:24 - WorkingDirectory: C:\Praktyki\Smart_home\smart_home\Temp\Simulation\Config1\X20CP0410\
+17-03-2026 13:16:24 - COMMAND_COLDSTART
+17-03-2026 13:16:26 - Version: 6.5.1
+17-03-2026 13:16:26 - Build: 2
+17-03-2026 14:55:28 - COMMAND_TERMINATE

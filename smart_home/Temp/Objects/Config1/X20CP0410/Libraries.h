@@ -1,8 +1,8 @@
 /* Automation Studio generated header file */
 /* Do not edit ! */
 
-#ifndef _LIBRARIES_20260316151817_
-#define _LIBRARIES_20260316151817_
+#ifndef _LIBRARIES_20260317145320_
+#define _LIBRARIES_20260317145320_
 
 __asm__(".section \".plc\"");
 
@@ -520,5 +520,5 @@ __asm__(".ascii \"iecfile \\\"Logical/Libraries/AsBrWStr/AsBrWStr.var\\\" scope 
 __asm__(".previous");
 
 
-#endif /* _LIBRARIES_20260316151817_ */
+#endif /* _LIBRARIES_20260317145320_ */
 

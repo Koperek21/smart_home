@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<State Top="0" Left="0" Width="0" Height="0" WindowState="Normal" xmlns="http://br-automation.co.at/AS/State">
+  <TextEdit ID="C:\Praktyki\Smart_home\smart_home\Logical\Global.var" CaretLine="1" CaretColumn="1" FirstVisibleLine="1">
+    <Bookmarks />
+  </TextEdit>
+  <TextEdit ID="C:\Praktyki\Smart_home\smart_home\Logical\Program\Init.st" CaretLine="1" CaretColumn="1" FirstVisibleLine="1">
+    <Bookmarks />
+  </TextEdit>
+  <TextEdit ID="C:\Praktyki\Smart_home\smart_home\Logical\Program\Cyclic.st" CaretLine="1" CaretColumn="1" FirstVisibleLine="68">
+    <Bookmarks />
+  </TextEdit>
+</State>
